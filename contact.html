@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Contact Us</title>
+</head>
+<body>
+   <header>
+       <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+            <h2>Eduford</h2>
+        </div>
+        <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+           <ul>
+               <li>
+                   <a href="3.html">HOME</a></li>
+               <li>
+                   <a href="about.html">ABOUT</a></li>
+               <li>
+                   <a href="course.html">COURSE</a></li>
+               <li>
+                   <a href="blog.html">BLOG</a></li>
+               <li>
+                   <a href="#text-box">CONTACT</a></li>
+           </ul>
+           </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+       </nav>
+ 
+       <!-- text-box -->
+
+       <section id="text-box">
+           <h1>Contact Us</h1>
+       </section>
+   </header>
+
+           <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462562.6510365978!2d54.94754300298328!3d25.075759432959867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1642081084582!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+           </div>
+           </section>
+
+           <!-- contact -->
+
+           <section class="contact">
+           <div class="row">
+               <div class="contact-col">
+                   <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h4>XYZ Road, ABC Building</h4>
+                        <p>Dubai, United Arab Emirates</p>
+                    </span>
+                   </div>
+                   <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <span>
+                        <h4>+971 558987978</h4>
+                        <p>Monday to Saturday 10AM to 6AM</p>
+                    </span>
+                   </div>
+                   <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h4>info@navedpathan.com</h4>
+                        <p>Enroll us your query</p>
+                    </span>
+                   </div>
+                   </div>
+
+               <div class="contact-col">
+                   <form action="form-handler.php" zmethod="post">
+                    <input type="text" name="name" placeholder="Enter your name" id="box" required><br><br>
+                    <input type="email" name="email" placeholder="Enter email address" id="box" required><br><br>
+                    <input type="text" name="subject" placeholder="Enter your subject" id="box" required><br><br>
+                    <textarea rows="10" name="message" placeholder="Message" id="box2"></textarea required><br><br>
+                    <input type="submit" value="Send Message" id="btn">
+                </form>
+               </div>
+               </div>
+            </section>
+
+        <!-- <footer> -->
+
+           <footer>  
+               <h4>About Us</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo culpa molestias corporis inventore itaque? Suscipit itaque quae facere quos voluptates quam veritatis aut et obcaecati cumque.</p>
+               <a href="https://facebook.com" target="_blank" class="fab fa-3x fa-facebook" id="ico"></a>
+               <a href="https://instagram.com" target="_blank" class="fab fa-3x fa-instagram" id="ico"></a>
+               <a href="https://twitter.com" target="_blank" class="fab fa-3x fa-twitter" id="ico"></a>
+               <a href="https://linkedin.com" target="_blank" class="fab fa-3x fa-linkedin" id="ico"></a>
+               <p>made with <i class="far fa-heart"></i> by <b><u>Naved Pathan</u></b></p>
+           </footer>
+
+          <script src="3.js"></script>
+
+           <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
